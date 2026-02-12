@@ -6,7 +6,7 @@ public class ObjDemo
     }
     public static void main(String[] args)
     {
-        objDemo ob=new objDemo();
+        ObjDemo ob=new ObjDemo();
         ob.msg();
     }
 }
