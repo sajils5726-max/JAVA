@@ -1,17 +1,13 @@
 package graphics;
 import java.util.Scanner;
-public class Rectangle implements Area_cal
-{
+public class Rectangle implements Area_cal{
     int l,b;
-     public void area()
-    {
+    public void area(){
         Scanner sc=new Scanner(System.in);
-        System.out.println("input length:");
+        System.out.println("Input length:");
         l=sc.nextInt();
-         System.out.println("input breadth:");
+        System.out.println("Input breadth");
         b=sc.nextInt();
-        System.out.println("area of rectangle:"+(l*b));
-    }
-}
-
+        System.out.println("Area of rectangle:"+(l*b));}
     
+}
